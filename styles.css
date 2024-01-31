@@ -1,0 +1,112 @@
+body {
+    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+    background-color: #ffdde1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    background: url('IMG/back.png') repeat;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.hh{
+    font-size: 30px;
+    font-weight:700;
+    font-family: "Shadows Into Light";
+    background-color: #ffffff;
+}
+.pp{
+    font-family: "Shadows Into Light";
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+body
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    height: 300px;
+    
+}
+
+
+
+.buttons button {
+    background-color: #C783CB;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+
+}
+
+.buttons button:hover {
+    background-color: #4fc709;
+
+}
+.buttons1 button {
+    background-color: #C783CB;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+
+}
+
+.buttons1 button:hover {
+    background-color: #ff2020;
+
+}
+.buttons1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.move {
+    animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(30px, 30px); }
+    50% { transform: translate(-20px, -20px); }
+    75% { transform: translate(10px, 10px); }
+    100% { transform: translate(0, 0); }
+}
